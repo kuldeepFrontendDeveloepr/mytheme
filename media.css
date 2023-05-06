@@ -1,0 +1,159 @@
+@media (min-width:320px) and (max-width:480px){
+    .container {
+        width: 100%;
+    }
+
+    .menu {
+        flex-direction: column;
+        position: relative;
+    }
+
+    #logo {
+        overflow: hidden;
+        padding: 15px;
+    }
+
+    .menu ul {
+        flex-direction: column;
+        position: absolute;
+        background-color: #f4511e;
+        margin-top: 50px;
+        top: -400px;
+        transition: all 0.8s ease-in-out;
+        width: 100%;
+    }
+
+    #chk {
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        opacity: 0;
+    }
+
+    #chk:checked~ul {
+        top: 0;
+    }
+
+    .myicon {
+        position: absolute;
+        opacity: 1;
+        right: 10px;
+        top: 10px;
+        background-color: rgb(197, 190, 190);
+        padding: 6px 10px;
+        border-radius: 4px;
+    }
+
+    .header-content h1 {
+        font-size: 36px
+    }
+
+    .inputbox {
+        width: 80%;
+    }
+
+    /* about section */
+
+    #about-section{
+        text-align: center;
+    }
+    .about-content {
+       flex-direction: column;
+    }
+    .about-left{
+        padding-right: 0;
+        padding: 20px;
+    }
+    .about-icon i{
+        padding-right: 0;
+        margin-top: 0;
+        margin-bottom: 70px;
+    }
+    .about-left button{
+        width: 80%;
+    }
+
+
+    /* value section */
+
+    .value-content {
+       flex-direction: column;
+       
+    }
+    .value-left i{
+       padding-left: 15px;
+    }
+    .value-right {
+        padding-left: 0;
+        padding: 10px;
+    }
+
+
+    /* service section */
+
+
+    .services-content{
+        flex-direction: column;
+    }
+    .service-icon{
+       flex-direction: column;
+    }
+    .box{
+       width: 220px;
+    }
+
+
+
+    /* portfolio section */
+
+
+    .portfolio-gallary{
+        flex-direction: column;
+    }
+
+    .imgbox{
+        text-align: center;
+        height: 310px;
+    }
+    .portfolio-gallary img{
+        width: 220px;
+        height: 165px;
+        padding: 40px;
+        
+    }
+
+    /* /pricing content */
+    .pricing-data{
+        flex-direction: column;
+    }
+    .pricing-box{
+        width: 220px;
+        height: 510px;
+        margin: 25px 0;
+       
+     }
+     .pricing-box button{
+        padding: 10px 60px;
+     }
+
+
+     /* contact section */
+
+     .contact-detail {
+        flex-direction: column;
+    }
+    .contact-right input {
+        width: 200px;
+        margin: 10px 0;
+        margin-left: 0;
+    }
+    .commentbox textarea{
+        width: 200px;
+    }
+    .contact-right{
+        margin-left: 0;
+    }
+    .contact-right button{
+        margin-left: 160px;
+    }
+}

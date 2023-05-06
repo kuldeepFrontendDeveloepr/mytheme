@@ -1,0 +1,365 @@
+html{
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #f4511e;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+.menu {
+    display: flex;
+}
+#logo {
+    text-decoration: none;
+    letter-spacing: 4px;
+    color: #fff;
+    padding: 15px;
+}
+#chk {
+    opacity: 0;
+}
+
+.myicon {
+    opacity: 0;
+}
+.menu ul {
+    display: flex;
+    margin-left: auto;
+}
+.menu ul li {
+    display: inline-block;
+    padding: 15px;
+
+}
+.menu ul li a {
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 4px;
+    font-size: 12px;
+}
+.menu ul li:hover {
+    background-color: #fff;
+}
+.menu ul li:hover a {
+    color: #f4511e;
+}
+.header-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+.header-content h1 {
+    color: #fff;
+    font-size: 63px;
+    font-family: sans-serif;
+}
+.header-content h4 {
+    color: #fff;
+    font-size: 21px;
+    padding: 10px;
+}
+.inputbox {
+    width: 50%;
+    display: flex;
+
+}
+.inputbox input {
+    width: 100%;
+    height: 20px;
+    padding: 8px;
+}
+.inputbox button {
+    background-color: #d9534f;
+    color: #fff;
+    border: 1px solid #d9534f;
+    padding: 7px;
+}
+.inputbox button:hover {
+    background-color: #862a27;
+}
+
+/* about section */
+
+.about-content {
+    display: flex;
+}
+.about-left {
+    padding-right: 200px;
+}
+.about-left h2 {
+    padding-top: 70px;
+    padding-bottom: 60px;
+}
+.p-top {
+    color: #333;
+    font-size: 20px;
+    font-weight: 400px;
+    line-height: 30px;
+    margin-bottom: 50px;
+}
+.p-bottom {
+    color: #818181;
+    font-size: 17px;
+    line-height: 30px;
+}
+.about-left button {
+    font-size: 20px;
+    padding: 10px 16px;
+    border-radius: 8px #ccc;
+    margin: 50px 0;
+    font-weight: 400;
+}
+.about-icon i {
+    margin-top: 50px;
+    color: #f4511e;
+    font-size: 200px;
+    padding-right: 70px;
+}
+
+/* Valve section */
+
+#value-section {
+    background-color: #f6f6f6;
+    padding: 60px 50px;
+}
+.value-content {
+    display: flex;
+}
+.value-left i {
+    color: #f4511e;
+    font-size: 230px;
+}
+.value-right {
+    padding-left: 200px;
+}
+.value-right h2 {
+    font-weight: 400px;
+    color: #303030;
+    margin: 50px 0;
+}
+strong {
+    font-size: 20px;
+}
+.p_top {
+    color: #303030;
+    font-size: 19px;
+    margin-bottom: 60px;
+}
+.p_bottom {
+    color: #818181;
+}
+
+/* service section */
+
+#service-section {
+    padding: 60px 50px;
+    text-align: center;
+}
+.services-content {
+    display: flex;
+
+}
+.service-content h2 {
+    color: #303030;
+    font-weight: 600;
+    font-size: 28px;
+    margin: 25px 0;
+}
+.service-content h4 {
+    margin: 30px 0;
+    font-size: 19px;
+    color: #303030;
+    font-weight: 400px;
+}
+.service-icon {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.box {
+    width: 300px;
+    height: 200px;
+    border: 2px solid #fff;
+    margin-top: 40px;
+}
+.service-icon i {
+    color: #f4511e;
+    font-size: 60px;
+}
+
+
+/* portfolio section */
+
+#portfolio-section {
+    background-color: #f6f6f6;
+    padding: 60px 0;
+}
+.port-data {
+    text-align: center;
+}
+.port-data h2 {
+    color: #303030;
+    font-size: 28px;
+    margin: 40px 0;
+    font-weight: 600;
+}
+.port-data h4 {
+    color: #303030;
+    font-size: 18px;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+.portfolio-gallary {
+    display: flex;
+    justify-content: space-around;
+}
+.imgbox {
+    background-color: #fff;
+    width: 320px;
+    height: 380px;
+    text-align: center;
+}
+.portfolio-gallary img {
+    width: 320px;
+    height: 300px;
+}
+.portfolio-gallary strong {
+    color: #818181;
+    font-weight: 800;
+    padding: 10px 0
+}
+.portfolio-gallary h4 {
+    color: #818181;
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+/* pricing section */
+
+#pricing-section {
+    padding: 60px 50px;
+}
+.pricing-content {
+    text-align: center;
+}
+.pricing-content h2 {
+    color: #303030;
+    font-size: 28px;
+    margin: 40px 0;
+    font-weight: 600;
+}
+.pricing-content h4 {
+    color: #303030;
+    font-size: 19px;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+.pricing-data {
+    display: flex;
+    justify-content: space-between;
+}
+.pricing-box {
+    width: 380px;
+    height: 510px;
+    border: 2px solid #f4511e;
+}
+.pricing-box h1 {
+    color: #fff;
+    padding: 30px;
+    background-color: #f4511e;
+}
+.pricing-box p {
+    color: #818181;
+    padding-top: 15px;
+}
+.pricing-box h3 {
+    font-size: 32px;
+    color: #818181;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+.pricing-box h4 {
+    font-size: 14px;
+    color: #aaa;
+}
+.pricing-box button {
+    color: #fff;
+    background-color: #f4511e;
+    font-size: 18px;
+    padding: 10px 16px;
+    margin: 15px 0;
+    border-radius: 5px;
+    border: 2px solid #f4511e;
+}
+
+/* contact section */
+
+#contact-section {
+    padding: 60px 50px;
+    background-color: #f6f6f6;
+}
+.contact-content {
+    text-align: center;
+}
+.contact-content h2 {
+    color: #303030;
+    font-size: 28px;
+    margin: 30px 0;
+    font-weight: 600;
+}
+.contact-detail {
+    display: flex;
+    text-align: justify;
+}
+.contact-left p {
+    width: px;
+    padding: 12px;
+    color: #818181;
+}
+.contact-right {
+    margin-left: 150px;
+}
+.contact-right input {
+    width: 300px;
+    padding: 6px 10px;
+}
+.commentbox {
+    margin-top: 25px;
+}
+
+.commentbox textarea {
+    padding: 6px 10px;
+    width: 630px;
+    height: 90px;
+}
+.contact-right button {
+    padding: 6px 13px;
+    margin-left: 590px;
+}
+
+/* footer section */
+
+.footer-section {
+    padding: 60px 50px;
+}
+
+.footer-content {
+    text-align: center;
+}
+
+.footer-content p {
+    padding: 30px 0;
+    color: #818181;
+}
+
+/* complete website */
